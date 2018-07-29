@@ -1,0 +1,341 @@
+/* activity_intro page style */
+.post-12 {
+  width: 730px;
+  float: right; }
+.post-12 ul {
+  list-style-type: none;
+  padding-left: 0; }
+.post-12 ul li {
+  font-size: 18px;
+  color: #44b265;
+  font-weight: bold; }
+.post-12 ul .hr {
+  width: 500px;
+  height: 2px;
+  border-top: 2px #838e87 solid;
+  float: right;
+  margin-top: 22px; }
+.post-12 ul h4 {
+  padding-left: 1.5em; }
+.post-12 ul p {
+  padding-left: 50px; }
+.post-12 #environment-protect {
+  float: left; }
+.post-12 .forest {
+  background-image: url("./images/forest.png");
+  width: 172px;
+  height: 204px;
+  float: right;
+  margin-top: -180px; }
+
+/*------*/
+/* volunteer page style */
+.post-20 {
+  width: 730px;
+  float: right; }
+.post-20 .recruitment {
+  background-color: #f2f8f1;
+  border-style: dashed;
+  border-width: 2px;
+  border-color: #9bad9a;
+  margin-top: 35px; }
+.post-20 .recruitment p {
+  font-size: 18px;
+  line-height: 2;
+  margin: 0;
+  padding: 10px 10px 0 10px; }
+.post-20 .recruitment .director {
+  font-size: 18px;
+  text-align: right;
+  margin: 60px 20px 20px 20px; }
+.post-20 .recruitment .feather {
+  background-image: url("./images/feather.png");
+  width: 343px;
+  height: 71px;
+  float: left;
+  margin: 50px 0 0 50px; }
+.post-20 a.vlink {
+  /*width: 300px;*/ }
+.post-20 a.vlink .to-form {
+  width: 300px;
+  height: 150px;
+  background-image: url("./images/volunteer_form.jpg");
+  margin: 50px 0 70px 0; }
+.post-20 a.vlink .to-form:hover {
+  opacity: 0.8; }
+
+/*------*/
+/* idea page style */
+.post-14 {
+  width: 730px;
+  float: right; }
+.post-14 p {
+  font-size: 18px;
+  line-height: 2; }
+.post-14 .family {
+  width: 400px;
+  height: 200px;
+  background-image: url("./images/family.jpg");
+  float: right;
+  margin: 30px 0; }
+
+/*------*/
+/* volunteer & member_form page style */
+.post-130, .post-197 {
+  width: 730px;
+  float: right; }
+.post-130 .v-post, .post-197 .v-post {
+  /*margin-top: 50px;*/
+  margin-left: 40px; }
+.post-130 .v-post .vf-greet, .post-197 .v-post .vf-greet {
+  margin-bottom: 50px; }
+.post-130 .v-post *, .post-197 .v-post * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+.post-130 .v-post .surface, .post-197 .v-post .surface {
+  display: -webkit-flex;
+  display: flex;
+  /*&:after {
+  	@include clearfix;
+  }*/ }
+.post-130 .v-post .surface ul, .post-197 .v-post .surface ul {
+  padding-left: 0;
+  list-style-type: none; }
+.post-130 .v-post .surface ul li, .post-197 .v-post .surface ul li {
+  /* after append box-sizing
+  padding size invalid */
+  height: 50px;
+  border-top: 1px dotted;
+  border-left: 1px dotted;
+  border-right: 1px solid;
+  line-height: 50px; }
+.post-130 .v-post .surface ul li.address, .post-197 .v-post .surface ul li.address {
+  height: 350px;
+  border-top: 1px dotted;
+  border-left: 1px dotted;
+  border-right: 1px solid; }
+.post-130 .v-post .surface ul li.kana, .post-130 .v-post .surface ul li.mail, .post-130 .v-post .surface ul li.birth, .post-130 .v-post .surface ul li.insurance, .post-130 .v-post .surface ul li.contactus, .post-130 .v-post .surface ul li.subscription, .post-130 .v-post .surface ul li.publish, .post-197 .v-post .surface ul li.kana, .post-197 .v-post .surface ul li.mail, .post-197 .v-post .surface ul li.birth, .post-197 .v-post .surface ul li.insurance, .post-197 .v-post .surface ul li.contactus, .post-197 .v-post .surface ul li.subscription, .post-197 .v-post .surface ul li.publish {
+  border-bottom: 1px solid; }
+.post-130 .v-post .surface ul.item, .post-197 .v-post .surface ul.item {
+  width: 250px;
+  background-color: #9bad9a; }
+.post-130 .v-post .surface ul.item li, .post-197 .v-post .surface ul.item li {
+  text-align: center; }
+.post-130 .v-post .surface ul.item li.address, .post-197 .v-post .surface ul.item li.address {
+  line-height: 350px; }
+.post-130 .v-post .surface ul.form, .post-197 .v-post .surface ul.form {
+  width: 400px; }
+.post-130 .v-post .surface ul.form li, .post-197 .v-post .surface ul.form li {
+  padding-left: 40px; }
+.post-130 .v-post .surface ul.form li.address, .post-197 .v-post .surface ul.form li.address {
+  line-height: 2.5; }
+.post-130 .v-post .surface ul.form li.fm, .post-130 .v-post .surface ul.form li.insurance, .post-130 .v-post .surface ul.form li.exp, .post-130 .v-post .surface ul.form li.contactus, .post-130 .v-post .surface ul.form li.kind, .post-130 .v-post .surface ul.form li.publish, .post-197 .v-post .surface ul.form li.fm, .post-197 .v-post .surface ul.form li.insurance, .post-197 .v-post .surface ul.form li.exp, .post-197 .v-post .surface ul.form li.contactus, .post-197 .v-post .surface ul.form li.kind, .post-197 .v-post .surface ul.form li.publish {
+  padding-left: 0px;
+  text-align: center; }
+.post-130 .v-post .surface ul.form li.fm span label, .post-130 .v-post .surface ul.form li.insurance span label, .post-130 .v-post .surface ul.form li.exp span label, .post-130 .v-post .surface ul.form li.contactus span label, .post-130 .v-post .surface ul.form li.kind span label, .post-130 .v-post .surface ul.form li.publish span label, .post-197 .v-post .surface ul.form li.fm span label, .post-197 .v-post .surface ul.form li.insurance span label, .post-197 .v-post .surface ul.form li.exp span label, .post-197 .v-post .surface ul.form li.contactus span label, .post-197 .v-post .surface ul.form li.kind span label, .post-197 .v-post .surface ul.form li.publish span label {
+  display: inline; }
+.post-130 .v-post .motive-area, .post-197 .v-post .motive-area {
+  width: 650px;
+  height: 250px;
+  padding: 15px 25px 25px 25px;
+  border: 1px solid; }
+.post-130 .v-post .to-privacy, .post-197 .v-post .to-privacy {
+  margin-top: 20px;
+  /*margin-left: 4em;*/ }
+.post-130 .v-post input.send-btn, .post-197 .v-post input.send-btn {
+  margin: 35px 0 35px 0;
+  /*margin-bottom: 35px;*/
+  width: 140px;
+  height: 35px;
+  background-color: #44b265;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  cursor: pointer; }
+.post-130 .v-post input.send-btn:hover, .post-197 .v-post input.send-btn:hover {
+  opacity: 0.8; }
+
+.post-130 .v-post .surface {
+  /*height: 850px:*/ }
+
+.post-197 .v-post .surface {
+  /*height: 770px:*/ }
+
+.post-130 .v-post .surface ul.form li.name, .post-130 .v-post .surface ul.form li.kana {
+  padding-left: 15px; }
+.post-130 .v-post .surface ul.form li.birth {
+  font-size: 14px; }
+
+.post-197 .v-post .surface ul.item li.name {
+  height: 70px;
+  line-height: 70px; }
+.post-197 .v-post .surface ul.form li.name {
+  height: 70px;
+  line-height: 35px; }
+
+/*------*/
+/* company_guide page style */
+.post-18 {
+  width: 730px;
+  float: right; }
+.post-18 .guide {
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 40px; }
+.post-18 .guide .uitem {
+  width: 230px;
+  /*-webkit-flex: 1;*/
+  /*flex: 1;*/ }
+.post-18 .guide .uitem .litem {
+  background-color: #9bad9a;
+  border-bottom: 1px solid;
+  height: 50px;
+  padding-left: 20px;
+  line-height: 3.2; }
+.post-18 .guide .uitem .litem:first-child {
+  border-top: 1px solid; }
+.post-18 .guide .udetail {
+  width: 500px;
+  /*-webkit-flex: 2;*/
+  /*flex: 2;*/ }
+.post-18 .guide .udetail .ldetail {
+  border-bottom: 1px solid;
+  height: 50px;
+  padding-left: 20px;
+  line-height: 3.2; }
+.post-18 .guide .udetail .ldetail:first-child {
+  border-top: 1px solid; }
+.post-18 .g-flower {
+  margin: 75px 0 35px 0;
+  background-image: url("./images/flower.png");
+  width: 697px;
+  height: 291px;
+  text-align: center; }
+
+/* donation page style */
+/* head_title only */
+body.page-id-22 .main-container #page-side .menu {
+  display: none; }
+
+.post-22 {
+  width: 730px;
+  float: right; }
+.post-22 .donate_img {
+  background-image: url("./images/donation_g.jpg");
+  width: 730px;
+  height: 330px;
+  margin-top: 35px; }
+.post-22 p {
+  font-size: 16px;
+  line-height: 32px; }
+.post-22 .leaf {
+  font-size: 16px;
+  padding-bottom: 40px; }
+.post-22 .leaf:before {
+  content: url("./images/leaf.png");
+  position: relative;
+  top: 10px; }
+.post-22 .transfer {
+  border: 1px solid;
+  background-color: #9bad9a;
+  font-weight: bold;
+  margin-bottom: 70px; }
+.post-22 .transfer .dest {
+  font-size: 18px;
+  padding: 30px 0 30px 20px; }
+.post-22 .transfer .uline {
+  border-top: 1px dotted;
+  width: 680px;
+  margin: 0 auto 10px auto; }
+.post-22 .transfer .dest-pttn {
+  padding: 0 0 25px 85px; }
+.post-22 .transfer .dest-pttn p {
+  margin: 0 auto;
+  padding-left: 145px; }
+
+/* admission page style */
+.post-24 {
+  width: 730px;
+  float: right; }
+.post-24 p {
+  font-size: 18px;
+  line-height: 25px; }
+.post-24 .member {
+  display: -webkit-flex;
+  display: flex;
+  margin: 40px 0 80px 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+.post-24 .member ul.offical {
+  padding: 0;
+  width: 365px;
+  list-style-type: none;
+  border-right: 1px solid; }
+.post-24 .member ul.offical li {
+  height: 100px;
+  border-bottom: 1px solid; }
+.post-24 .member ul.offical li:nth-of-type(1) {
+  height: 50px;
+  background-color: #9bad9a;
+  text-align: center;
+  border-top: 1px solid; }
+.post-24 .member ul.offical li:nth-of-type(1) p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #44b265;
+  line-height: 50px;
+  margin-top: initial; }
+.post-24 .member ul.offical li:nth-of-type(2) {
+  padding: 20px 0 0 100px; }
+.post-24 .member ul.support {
+  padding: 0;
+  width: 365px;
+  list-style-type: none; }
+.post-24 .member ul.support li {
+  height: 100px;
+  border-bottom: 1px solid; }
+.post-24 .member ul.support li:nth-of-type(1) {
+  height: 50px;
+  background-color: #9bad9a;
+  text-align: center;
+  border-top: 1px solid; }
+.post-24 .member ul.support li:nth-of-type(1) p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #44b265;
+  line-height: 50px;
+  margin-top: initial; }
+.post-24 .member ul.support li:nth-of-type(2) {
+  padding: 20px 0 0 40px; }
+.post-24 .flow {
+  background-image: url("./images/flow_admission.jpg");
+  width: 730px;
+  height: 200px;
+  margin: 20px 0 40px 0; }
+.post-24 .account {
+  background-image: url("./images/account.jpg");
+  width: 730px;
+  height: 326px;
+  margin: 20px 0 40px 0; }
+.post-24 a .to-adform {
+  background-image: url("./images/member_form.jpg");
+  width: 351px;
+  height: 100px;
+  margin-bottom: 70px; }
+.post-24 a .to-adform:hover {
+  opacity: 0.8; }
+
+/* sitemap page style */
+.post-30 ul li {
+  /* if keiko-pen design */ }
+.post-30 ul li ul.children li {
+  padding-left: 1em; }
+
+/*# sourceMappingURL=fix.css.map */
